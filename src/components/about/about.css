@@ -22,3 +22,18 @@
 .About-text {
   flex: 0 0 50%;
 }
+
+
+@media (max-width: 800px) {
+  .Main {
+    margin-top: 3vh;
+    flex-direction: column;
+    font-size: 1.3rem;
+  }
+  .Selfie {
+    max-width: 40vw;
+  }
+  .About-text {
+    padding: 2rem;
+  }
+}

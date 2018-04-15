@@ -9,7 +9,9 @@ import Paragraph from './paragraph';
 
 class Journal extends Component {
   componentDidMount() {
-    animateScroll.scrollTo(400);
+    if (window.innerWidth < 500) animateScroll.scrollTo(200);
+    else if (window.innerWidth < 800) animateScroll.scrollTo(300);
+    else animateScroll.scrollTo(400);
   }
   render() {
     return (

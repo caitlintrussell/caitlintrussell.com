@@ -26,3 +26,23 @@
   flex: 0 0 20%;
   text-align: center;
 }
+
+
+@media (max-width: 800px) {
+ .Header {
+   background-image: none;
+   justify-content: center;
+   min-height: 15vh;
+ }
+ .Title {
+    margin-top: 2vh;
+    margin-left: 0;
+ }
+ .Nav {
+   flex-direction: column;
+   justify-content: center;
+ }
+ .Nav-btn {
+  flex: 0 0 80%;
+}
+}

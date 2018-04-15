@@ -21,3 +21,31 @@
   float: right;
   margin-right: 1vw;
 }
+
+
+@media (max-width: 800px) {
+  .Project-main {
+    flex-direction: column;
+    margin-top: 3vh;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 8vh;
+  }
+  .Project-img {
+    text-align: center;
+    flex: 0 0 100%;
+    margin-bottom: 2vh;
+  }
+  .Project-text {
+    text-align: center;
+    flex: 0 0 100%;
+    margin-bottom: 3vh;
+  }
+  .Screenshot {
+    float: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

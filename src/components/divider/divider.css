@@ -7,3 +7,11 @@
   min-height: 1vh;
   display: flex;
 }
+
+
+
+@media (max-width: 800px) {
+  .Divider {
+    margin-top: 3vh;
+  }
+}

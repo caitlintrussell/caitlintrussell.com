@@ -22,3 +22,21 @@
 .Inner-text {
   margin-bottom: 2rem;
 }
+
+
+@media (max-width: 800px) {
+  .Journal-main {
+    font-size: 1.3rem;
+    flex-direction: column;
+    margin-top: 3vh;
+  }
+  .Journal-title {
+    flex: 0 0 100%;
+    padding: 0 2rem;
+  }
+  .Journal-text {
+    flex: 0 0 100%;
+    border-left: 0px solid #323339;
+    padding: 0 2rem;
+  }
+}
