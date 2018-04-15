@@ -11,7 +11,7 @@ import Projects from '../projects';
 import Journal from '../journal';
 
 const Header = () => {
-
+  const publicRoute = process.env.PUBLIC_URL;
   return (
 
     <div>
@@ -21,17 +21,17 @@ const Header = () => {
         <img src={divider} className="img-responsive" alt="--------------"/>
         <div className="Nav">
           <div className="Nav-btn">
-            <Link to="/about">
+            <Link to={`${publicRoute}/about`}>
               <Button name="about" />
             </Link>
           </div>
           <div className="Nav-btn">
-            <Link to="/projects">
+            <Link to={`${publicRoute}/projects`}>
             <Button name="projects" />
             </Link>
           </div>
           <div className="Nav-btn">
-            <Link to="/journal">
+            <Link to={`${publicRoute}/journal`}>
               <Button name="journal" />
             </Link>
           </div>
@@ -39,9 +39,9 @@ const Header = () => {
       </div>
     </div>
     <Divider />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/journal" component={Journal} />
+        <Route path={`${publicRoute}/about`} component={About} />
+        <Route path={`${publicRoute}/projects`} component={Projects} />
+        <Route path={`${publicRoute}/journal`} component={Journal} />
 
     </div>
   )
