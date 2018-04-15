@@ -1,0 +1,24 @@
+
+.Journal-main {
+  width: 100%;
+  background-color: #FAF7EF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8vh;
+}
+
+.Journal-title {
+  flex: 0 0 20%;
+  padding: 2rem;
+}
+
+.Journal-text {
+  flex: 0 0 70%;
+  border-left: 3px solid #323339;
+  padding: 2rem;
+}
+
+.Inner-text {
+  margin-bottom: 2rem;
+}

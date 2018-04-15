@@ -1,0 +1,28 @@
+
+
+.Header {
+  background-image: url('./plant-wide-copy.svg');
+  background-position: right bottom;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+
+}
+
+.Title {
+  margin-top: 12vh;
+  margin-left: 13vw;
+  flex: 0 0 40%;
+}
+
+.Nav {
+  margin-top: 1vh;
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Nav-btn {
+  flex: 0 0 20%;
+  text-align: center;
+}

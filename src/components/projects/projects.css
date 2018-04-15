@@ -1,0 +1,23 @@
+
+.Project-main {
+  width: 100%;
+  background-color: #FAF7EF;
+  min-height: 45vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Project-img {
+  flex: 0 0 30%;
+}
+
+.Project-text {
+  flex: 0 0 50%;
+}
+
+.Screenshot {
+  width: 80%;
+  float: right;
+  margin-right: 1vw;
+}
