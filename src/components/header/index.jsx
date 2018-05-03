@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 
@@ -12,6 +14,7 @@ import Journal from '../journal';
 
 const Header = () => {
   const publicRoute = process.env.PUBLIC_URL;
+  console.log(publicRoute);
   return (
 
     <div>
