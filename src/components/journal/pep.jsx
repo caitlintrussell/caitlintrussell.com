@@ -18,6 +18,8 @@ const PEP = () => {
         <div className="Journal-text">
           <div>
             <h4>Introduction to GraphQL</h4>
+            <h5><a href="https://github.com/caitlintrussell/graphql-demo">View Code on Github</a></h5>
+            <h5><a href="http://graphql.org/">GraphQL Documentation</a></h5>
             <p className="Inner-text">
               GraphQL is a query language for your API. It gives you the power
               to ask for exactly what you want, and nothing more. In situations
