@@ -6,6 +6,7 @@ import posts from './posts';
 import './journal.css';
 import Arrow from '../arrow';
 import Paragraph from './paragraph';
+import PEP from './pep';
 
 class Journal extends Component {
   componentDidMount() {
@@ -16,6 +17,7 @@ class Journal extends Component {
   render() {
     return (
       <div>
+        <PEP />
         {posts.map( (post) => {
           return (
             <div key={post.title}>

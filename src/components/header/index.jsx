@@ -11,12 +11,11 @@ import Divider from '../divider';
 import About from '../about';
 import Projects from '../projects';
 import Journal from '../journal';
+import PEP from '../journal/pep.jsx'
 
 const Header = () => {
   const publicRoute = process.env.PUBLIC_URL;
-  console.log(publicRoute);
   return (
-
     <div>
     <div className="Header">
       <div className="Title">
@@ -43,6 +42,7 @@ const Header = () => {
     </div>
     <Divider />
         <Route path={`${publicRoute}/about`} component={About} />
+        <Route path={`${publicRoute}/pep`} component={PEP} />
         <Route path={`${publicRoute}/projects`} component={Projects} />
         <Route path={`${publicRoute}/journal`} component={Journal} />
 
