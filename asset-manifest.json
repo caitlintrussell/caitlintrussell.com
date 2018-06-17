@@ -1,10 +1,11 @@
 {
   "main.css": "static/css/main.9d1204c7.css",
   "main.css.map": "static/css/main.9d1204c7.css.map",
-  "main.js": "static/js/main.c8a00ae5.js",
-  "main.js.map": "static/js/main.c8a00ae5.js.map",
+  "main.js": "static/js/main.088a0eb8.js",
+  "main.js.map": "static/js/main.088a0eb8.js.map",
   "static/media/adddog.gif": "static/media/adddog.771824b8.gif",
   "static/media/alldogs.gif": "static/media/alldogs.3d018cc8.gif",
+  "static/media/chester.png": "static/media/chester.ef082828.png",
   "static/media/ct.png": "static/media/ct.aab3457c.png",
   "static/media/divider.svg": "static/media/divider.d223d1ce.svg",
   "static/media/dogbybreed.gif": "static/media/dogbybreed.1a7b6979.gif",
@@ -12,5 +13,6 @@
   "static/media/nametrans.svg": "static/media/nametrans.330e8133.svg",
   "static/media/plant-wide-copy.svg": "static/media/plant-wide-copy.defec734.svg",
   "static/media/self.jpg": "static/media/self.12732104.jpg",
+  "static/media/torch-store.png": "static/media/torch-store.4d3ce5da.png",
   "static/media/yats-1.png": "static/media/yats-1.9c521104.png"
 }
