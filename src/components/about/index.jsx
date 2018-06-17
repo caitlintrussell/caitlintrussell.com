@@ -19,13 +19,10 @@ class About extends Component {
         <div className="About-text">
           <h2>Hi there!</h2>
           <h3>
-            I'm Caitlin. Former product designer and future software developer.
+            I'm Caitlin. I'm a full stack software developer!
           </h3>
           <p>
-            I live in Chicago and sometimes find myself at the foot of ancient
-            ruins. I enjoy javascript in all of it's forms. I'm studying
-            programming at Fullstack Academy and documenting my experience in
-            learning to code.
+            I live in Chicago and sometimes find myself at the foot of ancient ruins. I love javascript in all of it's forms and I've been making fiddling around on the web since I was 12. More recently, I completed a software developing intensive at Fullstack Academy of Code. Thanks for visiting! <i className="far fa-smile" />
           </p>
           <br />
           <p>
@@ -37,6 +34,9 @@ class About extends Component {
               target="blank"
             >
               <i className="glyph fab fa-linkedin fa-lg" />
+            </a>
+            <a href="https://angel.co/caitlintrussell" target="blank">
+              <i className="glyph fab fa-angellist fa-lg" />
             </a>
             <a href="mailto:caitlintrussell.com" target="blank">
               <i className="glyph fas fa-envelope fa-lg" />

@@ -3,9 +3,9 @@ import Arrow from '../arrow';
 import PrismCode from 'react-prism';
 import 'prismjs';
 import './prism.css';
-import dogByBreed from './dogbybreed.gif';
-import allDogs from './alldogs.gif';
-import addDog from './adddog.gif';
+import dogByBreed from './pep-assets/dogbybreed.gif';
+import allDogs from './pep-assets/alldogs.gif';
+import addDog from './pep-assets/adddog.gif';
 
 const PEP = () => {
   return (
@@ -126,7 +126,7 @@ db.sync({ force: true })
   })
   .catch(console.error)
 `}
-            </PrismCode>
+              </PrismCode>
             <p className="Inner-text">
               Alright, now that we have our server up and running, now lets get to the nitty gritty of what GraphQL is capable of. GraphQL is generally composed of four things, <em>Schema</em>, <em>Resolvers</em>, <em>Queries</em>, and <em>Mutations</em>. Schema is where you define your data types (GraphQL is a typed language) that, in this case, relate to your database models. Resolvers determine what data is returned back to you. Queries determine what actions are required to retrieve that data. And Mutations are like Queries, but they are mutative. To begin, lets work on our schema.
             </p>
@@ -223,17 +223,17 @@ module.exports = schema;
             <p className="Inner-text">
             <h4>Querying All Dogs</h4>
             A very simple query, just type the name and what you'd like to receive back. Press ctrl+space to see your options.
-              <img src={allDogs} className="img-responsive" alt="querying all dogs"/>
+              <img src={allDogs} className="img-responsive" alt="querying all dogs" />
             </p>
             <p className="Inner-text">
             <h4>Querying All Dogs By Breed</h4>
             Another simple query, but this time with variables! I can't tell you how embarassingly long it took me to figure out how to use variables in Graphiql... Oh well. Remember to input all of your variables in JSON. No hanging commas, please! Luckily for us, Graphiql is awesome and will point out any errors while we type up our queries.
-              <img src={dogByBreed} className="img-responsive" alt="querying dogs by breed"/>
+              <img src={dogByBreed} className="img-responsive" alt="querying dogs by breed" />
             </p>
             <p className="Inner-text">
             <h4>Adding A Dog</h4>
             A mutation! And it returns what's been created! Notice the nesting input in the query variables and how we're referencing our previous made input type at the start of our query! So cool, y'all.
-              <img src={addDog} className="img-responsive" alt="adding a dog"/>
+              <img src={addDog} className="img-responsive" alt="adding a dog" />
             </p>
             <p className="Inner-text">
               There ya have it! It works! Now, obviously, this very simple dog list app is not a great use case for GraphQL, but I hope you've learned enough to want to explore its true potential. Being able to have absolute control over exactly what a query returns, with very little setup is an awesome feature! Async/await truly shines in the more complex queries and mutations. In the future, I'd like to get into some of those and how GraphQL can handle associations. It can effectively eliminate the need for eager loading in Sequelize. Oh man, that's the good stuff. Well, that's all folks, thanks for reading!
